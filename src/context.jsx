@@ -19,7 +19,7 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "HOME_UPDATE",
       payload: {
-        name: "Thapa Technical",
+        name: "Home Page",
         image: "./images/hero.svg",
       },
     });
@@ -29,7 +29,7 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "ABOUT_UPDATE",
       payload: {
-        name: "Vinod Thapa",
+        name: "About Page",
         image: "./images/about1.svg",
       },
     });
